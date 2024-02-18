@@ -1,0 +1,46 @@
+.title {
+    color: #FA8072;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.item {
+    margin-bottom: 30px;
+}
+
+.item p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.custom-button {
+    background-color: rgb(38, 33, 33); /* 设置按钮背景颜色 */
+    color: rgb(195, 195, 195); /* 设置文字颜色 */
+    border: none; /* 移除按钮边框 */
+    padding: 10px 20px; /* 设置按钮内边距 */
+    border-radius: 5px; /* 设置按钮圆角 */
+    cursor: pointer; /* 设置鼠标悬停时的光标样式为手型 */
+  }
+  
+  .custom-button:hover {
+    color: white;
+  }
+
+  th {
+    background-color: rgb(38, 33, 33); /* 设置表头背景色为黑色 */
+    color: rgb(195, 195, 195); /* 设置表头文字颜色为白色 */
+  }
+
+  .right-align {
+    text-align: right;
+  }
+
+footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 20px;
+}

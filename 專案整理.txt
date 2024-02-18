@@ -1,0 +1,7 @@
+eclipse                         VsCode
+--------------------------------------------------------------------------------------------------------------
+UserProject  (JPA)              Exam(C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\frontEnd)
+UserProject  (JPA)              user-app(C:\)
+UserProject2 (mybatis)          ex1-app(C:\)
+Jpa-2 (JPA)                     N/A
+UserProject2 (mybatis)          cake-app(C:\)
