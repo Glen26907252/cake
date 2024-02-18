@@ -1,0 +1,17 @@
+<div class="header-container"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity6"> 
+   <div class="site-name">線上購物</div>   
+   <div class="header-bar">
+      <th:block sec:authorize="isAuthenticated()">
+         Hello
+         <a th:href="@{/api/accountInfo}"><span sec:authentication="name"></span></a>
+         &nbsp;|&nbsp;
+         <a th:href="@{/api/logout}">Logout</a>
+      </th:block>
+       
+      <th:block sec:authorize="!isAuthenticated()">
+         <a th:href="@{/formlogin}">Login</a>
+      </th:block>
+   </div>   
+</div>

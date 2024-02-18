@@ -1,0 +1,53 @@
+package com.example.demo.vo;
+
+import lombok.Data;
+import lombok.ToString;
+
+@Data
+public class Cake {
+	private Integer id;
+	private String item;
+	private String itemName;
+	private Integer amount;
+	private Integer subtotal;
+	
+	public Cake(String item,Integer amount, Integer subtotal ) {
+		super();
+		this.item = item;
+		this.amount = amount;
+		this.subtotal = subtotal;
+		
+	}
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public String getItem() {
+		return item;
+	}
+	public void setItem(String item) {
+		this.item = item;
+	}
+	public Integer getAmount() {
+		return amount;
+	}
+	public void setAmount(Integer amount) {
+		this.amount = amount;
+	}
+	public Integer getSubtotal() {
+		return subtotal;
+	}
+	public void setSubtotal(Integer subtotal) {
+		this.subtotal = subtotal;
+	}
+	public Cake() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+
+	
+
+}

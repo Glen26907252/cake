@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+   <head>
+      <meta charset="UTF-8">
+      <title>Login</title>
+      <link rel="stylesheet" type="text/css" th:href="@{/styles.css}">
+   </head>
+   <body>
+      <th:block th:insert=~{_header}></th:block>
+      <th:block th:insert=~{_menu}></th:block>
+       
+      <div class="page-title">Login</div>
+       
+      <div class="login-container">
+         <h3>輸入帳戶密碼</h3>
+         <br>    
+          
+         <form method="POST"
+            th:action="@{/login}">
+            <table>
+               <tr>
+                  <td>帳戶 *</td>
+                  <td><input name="username" /></td>
+               </tr>
+               <tr>
+                  <td>密碼 *</td>
+                  <td><input type="password" name="password" /></td>
+               </tr>
+               <tr>
+                  <td>&nbsp;</td>
+                  <td>
+                      <input type="submit" value="Login" />
+                      <input type="reset" value="Reset" />
+                  </td>
+               </tr>
+            </table>
+         </form>
+          
+         <span class="error-message" th:utext="${error}"></span>
+      </div>       
+      <div style="text-align:left">
+          <h3>帳號/密碼:</h3>
+          <ul>        
+             <li>Mary/m123</li>
+             <li>George/g123</li>   
+          </ul>
+      </div>       
+      <th:block th:insert=~{_footer}></th:block>       
+   </body>
+</html>

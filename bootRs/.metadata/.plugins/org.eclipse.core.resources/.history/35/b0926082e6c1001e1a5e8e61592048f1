@@ -1,0 +1,26 @@
+package com.example.demo.vo;
+
+import lombok.Data;
+import lombok.ToString;
+
+@Data
+@ToString
+public class Chat {
+	private Integer id;
+	private String name;
+	private String subject;
+	private String content;
+	public Chat(String name, String subject, String content) {
+		super();
+		this.name = name;
+		this.subject = subject;
+		this.content = content;
+	}
+	public Chat() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}
