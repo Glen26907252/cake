@@ -5,3 +5,4 @@ UserProject  (JPA)              user-app(C:\)
 UserProject2 (mybatis)          ex1-app(C:\)
 Jpa-2 (JPA)                     N/A
 UserProject2 (mybatis)          cake-app(C:\)
+UserProject  (JPA)              cake-app(C:\)
