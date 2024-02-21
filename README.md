@@ -4,6 +4,7 @@
 |-----------------|-------------------|-------------------|
 | UserProject | SprintBoot+ORM(JPA) | Exam  |
 | UserProject | SprintBoot+ORM(JPA) | user-app    |
+| UserProject | SprintBoot+ORM(JPA) | cake-app    |
 | UserProject2 | SprintBoot+ORM(mybatis) | ex1-app  |
 | Jpa-2 | SprintBoot+ORM(JPA)      | N/A               |
 | UserProject2 | SprintBoot+ORM(mybatis) | cake-app  |
