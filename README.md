@@ -40,16 +40,12 @@ For MyBatis-based server startup:
 3. Select "Run As" > "Spring Boot App" to start the server.
 
 # Demonstration Screenshots of Web Operations
-![Screenshots](pic/1.png)
-![Screenshots](pic/2.png)
-![Screenshots](pic/3.png)
-![Screenshots](pic/4.png)
-![Screenshots](pic/5.png)
-![Screenshots](pic/6.png)
-![Screenshots](pic/7.png)
-![Screenshots](pic/8.png)
-![Screenshots](pic/9.png)
-![Screenshots](pic/10.png)
-![Screenshots](pic/11.png)
+
+|   |   |   |
+|---|---|---|
+| ![Screenshots](pic/1.png) | ![Screenshots](pic/2.png) | ![Screenshots](pic/3.png) |
+| ![Screenshots](pic/4.png) | ![Screenshots](pic/5.png) | ![Screenshots](pic/6.png) |
+| ![Screenshots](pic/7.png) | ![Screenshots](pic/8.png) | ![Screenshots](pic/9.png) |
+| ![Screenshots](pic/10.png) | ![Screenshots](pic/11.png) |   |
 
 
