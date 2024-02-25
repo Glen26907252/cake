@@ -29,41 +29,17 @@ public class CakeController {
 		return cakeRepository.findAll();
 	}
 	
-//	@PostMapping("/add")
-//	public Cake addCake(String item, String item_name, Integer amount, Integer subtotal) {		
-//			
-//	    Cake cake = new Cake(item, item_name, amount, subtotal);
-//	    return cakeRepository.save(cake);
-//	}
-
-
 	@PostMapping("/add")
 	public Cake addUser2(@RequestBody Cake cake) {		
 		
 		return cakeRepository.save(cake);
 	}
-	
-//	@PostMapping(value = "/delete")
-//	public void delCake(Integer id) {
-//		cakeRepository.deleteById(id);
-//	}
-	
+		
 	@DeleteMapping(value = "/delete/{id}") // 修改路径，添加{id}作为路径参数
 	public void delCake(@PathVariable Integer id) { // 添加@PathVariable注解来接收路径参数
 	    cakeRepository.deleteById(id);
 	}
-	
-//	@DeleteMapping("/delete/{id}")
-//	public ResponseEntity<String> deleteCake(@PathVariable("id") Integer id) {
-//	    try {
-//	        cakeRepository.deleteById(id);
-//	        return new ResponseEntity<>("删除成功", HttpStatus.OK);
-//	    } catch (Exception e) {
-//	        return new ResponseEntity<>("删除失败：" + e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
-//	    }
-//	}
-
-	
+		
 	@PutMapping("/update/{id}")
 	public Cake updateCake(@PathVariable Integer id, @RequestBody Cake updatedCake) {
 	    return cakeRepository.findById(id).map(cake -> {
