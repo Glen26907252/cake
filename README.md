@@ -50,6 +50,6 @@ For MyBatis-based server startup:
 ![Screenshots](pic/8.png)
 ![Screenshots](pic/9.png)
 ![Screenshots](pic/10.png)
-![Screenshots](pic/11png)
+![Screenshots](pic/11.png)
 
 
