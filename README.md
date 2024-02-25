@@ -1,4 +1,4 @@
-# Cake(確認是不是每個都是cake)
+# Cake
 訂購網站  
 | Eclipse BackEnd packages        | Framework        | VsCode FrontEnd packages           |
 |-----------------|-------------------|-------------------|
@@ -8,5 +8,8 @@
 | UserProject2 | SprintBoot+ORM(mybatis) | ex1-app  |
 | Jpa-2 | SprintBoot+ORM(JPA)      | N/A               |
 | UserProject2 | SprintBoot+ORM(mybatis) | cake-app  |
+
+# 啟動前端Raact專案
+# 啟動後端Eclipse專案
 
 
