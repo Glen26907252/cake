@@ -1,15 +1,4 @@
-# Cake
-訂購網站  
-| Eclipse BackEnd packages        | Framework        | VsCode FrontEnd packages           |
-|-----------------|-------------------|-------------------|
-| UserProject | SprintBoot+ORM(JPA) | Exam  |
-| UserProject | SprintBoot+ORM(JPA) | user-app    |
-| UserProject | SprintBoot+ORM(JPA) | cake-app    |
-| UserProject2 | SprintBoot+ORM(mybatis) | ex1-app  |
-| Jpa-2 | SprintBoot+ORM(JPA)      | N/A               |
-| UserProject2 | SprintBoot+ORM(mybatis) | cake-app  |
-
-# Starting the React Project
+# Starting the React Project(cake-app)
 
 To start the project in React, follow these steps:
 
@@ -26,8 +15,41 @@ To start the project in React, follow these steps:
 
 # Starting the Eclipse Project
 
+Project: bootRs
+
+Sub-Projects: UserProject , UserProject2
+
+In the `bootRs` project, there are two different ORM writing styles:
+
+- **UserProject** follows the JPA approach.
+- **UserProject2** follows the MyBatis approach.
+
 To start the project in Eclipse, follow these steps:
 
-1. Locate the `Application.java` file in your project.
-2. Right-click on `Application.java`.
+For JPA-based server startup:
+
+1. Locate the `UserProjectApplication.java` file within the `bootRs` project.
+2. Right-click on `UserProjectApplication.java`.
 3. Select "Run As" > "Spring Boot App" to start the server.
+
+
+For MyBatis-based server startup:
+
+1. Locate the `UserProject2Application.java` file within the `bootRs` project.
+2. Right-click on `UserProject2Application.java`.
+3. Select "Run As" > "Spring Boot App" to start the server.
+
+# Demonstration Screenshots of Web Operations
+![Screenshots](pic/1.jpg)
+![Screenshots](pic/2.jpg)
+![Screenshots](pic/3.jpg)
+![Screenshots](pic/4.jpg)
+![Screenshots](pic/5.jpg)
+![Screenshots](pic/6.jpg)
+![Screenshots](pic/7.jpg)
+![Screenshots](pic/8.jpg)
+![Screenshots](pic/9.jpg)
+![Screenshots](pic/10.jpg)
+![Screenshots](pic/11jpg)
+
+
