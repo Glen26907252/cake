@@ -43,9 +43,9 @@ For MyBatis-based server startup:
 
 |   |   |   |
 |---|---|---|
-| ![Screenshots](pic/1.png) | ![Screenshots](pic/2.png) | ![Screenshots](pic/3.png) |
-| ![Screenshots](pic/4.png) | ![Screenshots](pic/5.png) | ![Screenshots](pic/6.png) |
-| ![Screenshots](pic/7.png) | ![Screenshots](pic/8.png) | ![Screenshots](pic/9.png) |
-| ![Screenshots](pic/10.png) | ![Screenshots](pic/11.png) |   |
+| [![Screenshots](pic/1.png)](pic/1.png) 1 | [![Screenshots](pic/2.png)](pic/2.png) 2 | [![Screenshots](pic/3.png)](pic/3.png) 3 |
+| [![Screenshots](pic/4.png)](pic/4.png) 4 | [![Screenshots](pic/5.png)](pic/5.png) 5 | [![Screenshots](pic/6.png)](pic/6.png) 6 |
+| [![Screenshots](pic/7.png)](pic/7.png) 7 | [![Screenshots](pic/8.png)](pic/8.png) 8 | [![Screenshots](pic/9.png)](pic/9.png) 9 |
+| [![Screenshots](pic/10.png)](pic/10.png) 10 | [![Screenshots](pic/11.png)](pic/11.png) 11 |   |
 
 
