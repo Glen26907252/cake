@@ -38,7 +38,7 @@ const Detail = () => {
                 // 可以在這裡添加其他要傳送的資料
             };
 
-            const response = await axios.post('http://192.168.1.103:8080/cake/add', data);
+            const response = await axios.post('http://localhost:8080/cake/add', data);
 
             console.log(response.data);
             alert('訂單已提交！');

@@ -33,7 +33,7 @@ export default class QueryAllChat extends Component {
 
   handleDelete = () => {
     const { deleteId } = this.state;
-    axios.delete(`http://192.168.1.103:8080/cake/delete/${deleteId}`)
+    axios.delete(`http://localhost:8080/cake/delete/${deleteId}`)
       .then(response => {
         this.test();
         this.setState({ deleteId: '' });
@@ -44,7 +44,7 @@ export default class QueryAllChat extends Component {
   };
 
   test = () => {
-    axios.get("http://192.168.1.103:8080/cake/queryAllCake")
+    axios.get("http://localhost:8080/cake/queryAllCake")
       .then(response => {
         this.setState({
           queryResult: response.data
@@ -129,7 +129,7 @@ export default class QueryAllChat extends Component {
       subtotal: product.price * updateQuantity,
     };
   
-    axios.put(`http://192.168.1.103:8080/cake/update/${updateId}`, data)
+    axios.put(`http://localhost:8080/cake/update/${updateId}`, data)
       .then(response => {
         this.test();
         this.setState({ 
