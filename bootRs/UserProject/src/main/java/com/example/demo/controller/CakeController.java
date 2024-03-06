@@ -39,7 +39,8 @@ public class CakeController {
 	public void delCake(@PathVariable Integer id) { // 添加@PathVariable注解来接收路径参数
 	    cakeRepository.deleteById(id);
 	}
-		
+	
+	
 	@PutMapping("/update/{id}")
 	public Cake updateCake(@PathVariable Integer id, @RequestBody Cake updatedCake) {
 	    return cakeRepository.findById(id).map(cake -> {

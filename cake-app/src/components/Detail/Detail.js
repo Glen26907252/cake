@@ -83,7 +83,7 @@ const Detail = () => {
                         <h3>{product.name}</h3>
                         <p>{product.descript}</p>
                         <p>價錢：{product.price}元 / 片</p>
-                        <p>分類：{Array.isArray(product.category) && product.category.map(c => <CategoryTag key={c} tag={c} />)}</p>
+                        <p>分類：<span className="category">{product.category}</span> <span className="category2">{product.category2}</span></p>
                         <form>
                             <div className="form-group">
                                 <label htmlFor="number">數量</label>
