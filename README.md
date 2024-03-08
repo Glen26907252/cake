@@ -1,19 +1,22 @@
-# Starting the React Project(cake-app)
+# Overview 
 
-To start the project in React, follow these steps:
+This is a cake shopping website with separate frontend and backend. It offers a selection of 5 products for users to choose from. Users can utilize the following functionalities: placing orders, querying orders, modifying order details, and deleting orders.
 
-1. Open the command line terminal.
-2. Navigate to the root directory of your React project by using the `cd` command followed by the directory name. For example:
-    ```bash
-    cd cake-app
-    ```
-3. Once you are in the root directory of your React project, start the development server by running the following command:
-    ```bash
-    npm start
-    ```
-4. After running the command, your default web browser should open automatically, and you should see your React application running. If it doesn't open automatically, you can manually open a web browser and navigate to `http://localhost:3000` to view your application.
+# Architecture
+**`Frontend Technologies Used:`**
 
-# Starting the Eclipse Project
+Project: cake-app
+- **React.js:** Utilizes the JavaScript-based frontend framework to build user interfaces. The code employs features like React components, state management, and lifecycle methods.
+  
+- **Axios:** Utilizes Axios to send AJAX requests in both browsers and Node.js environments. It interacts with the backend by sending GET, POST, PUT, and DELETE requests to perform CRUD operations on the backend API.
+
+- **CSS:** Utilizes CSS styles for page styling and layout control. These styles define class names and IDs to set the appearance and behavior of elements.
+
+- **HTML:** Utilizes HTML elements for building page structure and content. These elements include image tags, buttons, input fields, tables, etc.
+
+- **UI Components:** Utilizes various UI components to construct the user interface, such as buttons, input fields, etc. These components are defined and used using React's JSX syntax.
+
+**`Backend Technologies Used:`**
 
 Project: bootRs
 
@@ -22,22 +25,19 @@ Sub-Projects: UserProject , UserProject2
 In the `bootRs` project, there are two different ORM writing styles:
 
 - **UserProject** follows the JPA approach.
+**`Backend Technologies Used:`**
+1. Framework: Spring Boot
+2. Component: Spring Web MVC for handling HTTP requests and responses
+3. Data Access: Spring Data JPA for interacting with the database
+4. Repository Interface: CakeRepository, a Spring Data JPA repository interface for CRUD operations on the Cake entity
+5. Cross-Origin Resource Sharing (CORS): Enabled using the @CrossOrigin annotation to allow requests from different origins
 - **UserProject2** follows the MyBatis approach.
+1. Framework: Spring Boot
+2. Component: Spring Web MVC for handling HTTP requests and responses
+3. ORM Tool: MyBatis, which simplifies the mapping of Java objects to SQL statements and provides a simple way to interact with relational databases
+4. Dependency Injection: Utilizes Spring's @Autowired annotation for dependency injection, injecting an instance of CakeServiceImpl into the controller
+5. Cross-Origin Resource Sharing (CORS): Enabled using the @CrossOrigin annotation to allow requests from different origins
 
-To start the project in Eclipse, follow these steps:
-
-For JPA-based server startup:
-
-1. Locate the `UserProjectApplication.java` file within the `bootRs` project.
-2. Right-click on `UserProjectApplication.java`.
-3. Select "Run As" > "Spring Boot App" to start the server.
-
-
-For MyBatis-based server startup:
-
-1. Locate the `UserProject2Application.java` file within the `bootRs` project.
-2. Right-click on `UserProject2Application.java`.
-3. Select "Run As" > "Spring Boot App" to start the server.
 
 # Demonstration Screenshots of Web Operations
 
